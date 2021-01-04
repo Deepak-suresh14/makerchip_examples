@@ -11,7 +11,7 @@
    \viz_alpha
       initEach() {
          
-         debugger
+         debugger;
          this.transObj = {} // A map of transaction fabric objects, indexed by $uid.
          return {
             transObj: this.transObj,
